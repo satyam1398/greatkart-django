@@ -1,0 +1,17 @@
+  313  sudo apt install python3.8-venv
+python -m venv env
+source env/bin/activate
+deactivate
+  349  history | tail -2 | tail -1 >> notes_project 
+pip install django==3.1
+  365  django-admin startproject greatkart .
+  368* 
+  294  python manage.py collectstatic
+  391  python manage.py startapp category
+  396  python -m pip install Pillow
+  398  python manage.py makemigrations
+  401  python manage.py migrate
+  404  python manage.py createsuperuser
+#project code source https://github.com/dev-rathankumar/greatkart-course
+python manage.py startapp store
+  506  git init 
