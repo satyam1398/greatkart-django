@@ -49,7 +49,7 @@ def remove_cart_item(request,product_id):
     cart_item = CartItem.objects.get(product=product, cart=cart)
     cart_item.delete()
     return redirect('cart')
-    
+
 #yoh5mflpoor8jy6qdmjlws94xrdb15gq
 def cart(request, total=0, quantity=0, cart_items=None):
     try:
